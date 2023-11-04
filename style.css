@@ -437,6 +437,20 @@ header {
     width: 100%;
 }
 
+.btn-primary {
+    transition: all 0.5s ease;
+}
+
+.btn-primary:hover {
+    font-size: 18px;
+    box-shadow: 0 0 115px rgba(108, 119, 212, 0.773);
+}
+
+.course-card:hover {
+    font-size: 17px;
+    box-shadow: 0 0 115px rgba(58, 73, 212, 0.192);
+}
+
 @media screen and (max-width:576px) {
     .nav-container {
         flex-direction: column;
