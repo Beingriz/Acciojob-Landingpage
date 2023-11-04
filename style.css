@@ -11,13 +11,13 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, .08);
     position: fixed;
     top: 0;
-    padding: 0 30px;
+    padding: 10px 30px;
 }
 
 .nav-container {
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
     margin: 0 auto;
     max-width: 2000px;
@@ -63,7 +63,7 @@
     position: fixed;
     z-index: 80;
     width: 100%;
-    top: 62px;
+    top: 72px;
     left: 0px;
     padding: 10px 0;
     display: flex;
@@ -285,6 +285,13 @@ header {
 }
 
 .partners-main-div {
+    height: 600px;
+    background-color: #ffffff;
+    padding-top: 95px;
+    text-align: center;
+}
+
+.testimonial-main-div {
     height: 900px;
     background-color: #ffffff;
     padding-top: 95px;
@@ -384,4 +391,128 @@ header {
 
 .details span {
     font-style: italic;
+}
+
+#partners h5 {
+    text-transform: uppercase;
+    font-size: 14px;
+    background: linear-gradient(180deg, rgb(153.4, 47, 237) 0%, rgb(47, 128, 237) 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+}
+
+#partners h6 {
+    color: rgb(167, 165, 165);
+}
+
+.p-logo {
+    width: 159px;
+    height: 57px;
+    padding: 10px;
+    margin-left: 49px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 400px;
+    background: #fff;
+    border: 2px solid #d7d7d7;
+    box-shadow: 5px 9px 40px rgba(0, 0, 0, .08);
+    border-radius: 10px;
+    margin: 8px;
+    padding: 20px;
+}
+
+.card-header-part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+@media screen and (max-width:576px) {
+    .nav-container {
+        flex-direction: column;
+    }
+    .hero-wrapper {
+        flex-direction: column;
+    }
+    .hero-left-wrapper {
+        width: 100%;
+    }
+    .header-content-wrapper {
+        flex-direction: column;
+        width: auto;
+        margin-top: 18px;
+        padding: 20px;
+    }
+    .hero-heading {
+        margin: auto;
+    }
+    .partners-main-div {
+        height: auto;
+    }
+    .testimonial-main-div {
+        height: auto;
+    }
+    .courses-main-div {
+        height: auto;
+    }
+    .card-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .course-card {
+        width: 100%;
+    }
+    #testimonial {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .nav-container {
+        flex-direction: column;
+    }
+    .hero-wrapper {
+        flex-direction: column;
+    }
+    .hero-left-wrapper {
+        width: 100%;
+    }
+    .header-content-wrapper {
+        flex-direction: column;
+        width: auto;
+        margin-top: 18px;
+        padding: 20px;
+    }
+    .hero-heading {
+        margin: auto;
+    }
+    .partners-main-div {
+        height: auto;
+    }
+    .testimonial-main-div {
+        height: auto;
+    }
+    .courses-main-div {
+        height: auto;
+    }
+    .card-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .course-card {
+        width: 100%;
+    }
+    #testimonial {
+        text-align: center;
+    }
 }
