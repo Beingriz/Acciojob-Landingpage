@@ -284,6 +284,13 @@ header {
     text-align: center;
 }
 
+.partners-main-div {
+    height: 900px;
+    background-color: #ffffff;
+    padding-top: 95px;
+    text-align: center;
+}
+
 .courses-main-div h4 {
     text-transform: capitalize;
     color: #9884f3;
