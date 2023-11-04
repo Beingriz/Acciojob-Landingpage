@@ -278,20 +278,34 @@ header {
 }
 
 .courses-main-div {
-    height: 1700px;
+    height: 900px;
     background-color: #dff3ff;
+    padding-top: 95px;
+    text-align: center;
+}
+
+.courses-main-div h4 {
+    text-transform: capitalize;
+    color: #9884f3;
+}
+
+.courses-main-div h2 {
+    text-transform: capitalize;
+    color: #2F80ED;
 }
 
 .card-container {
     width: 75%;
     margin: auto;
+    text-align: left;
 }
 
 .course-card {
     background-color: white;
-    width: 30%;
+    width: 35%;
     margin: 10px;
     padding: 10px 5px 5px 5px;
+    border-radius: 10px;
 }
 
 .course-card h4 {
@@ -304,7 +318,7 @@ header {
 }
 
 .features {
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -323,7 +337,8 @@ header {
 }
 
 .card-details {
-    width: 100%;
+    width: 90%;
+    margin: auto;
 }
 
 .card-details span {
@@ -334,6 +349,32 @@ header {
     width: 100%;
 }
 
+.tag-line {
+    text-align: center;
+    color: #999595;
+    margin-bottom: 10px;
+}
+
 .card-buttons button {
     width: 35%;
+}
+
+.line {
+    padding: 15px;
+}
+
+.feature {
+    width: 35%;
+}
+
+.feature span {
+    font-weight: 500;
+}
+
+.details {
+    width: 30%;
+}
+
+.details span {
+    font-style: italic;
 }
