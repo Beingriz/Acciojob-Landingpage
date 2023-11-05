@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    scroll-behavior: smooth;
+}
+
 .nav-bar {
     background: #fff;
     width: 100%;
@@ -461,6 +465,9 @@ header {
     .hero-left-wrapper {
         width: 100%;
     }
+    .nav-links ul {
+        flex-direction: column;
+    }
     .header-content-wrapper {
         flex-direction: column;
         width: auto;
@@ -501,6 +508,9 @@ header {
     .hero-left-wrapper {
         width: 100%;
     }
+    .nav-links ul {
+        flex-direction: column;
+    }
     .header-content-wrapper {
         flex-direction: column;
         width: auto;
@@ -522,11 +532,21 @@ header {
     .card-container {
         display: flex;
         flex-direction: column;
+        height: auto;
     }
     .course-card {
         width: 100%;
     }
     #testimonial {
         text-align: center;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .testimonial-main-div {
+        height: auto;
+    }
+    .courses-main-div {
+        height: auto;
     }
 }
